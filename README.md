@@ -2,6 +2,7 @@
 # ofxSpeech 
 * May 30th 2009 - by Ruben Duque (latrokles)
 * Updated - Nov 4 2013 - Jeff Crouse (jefftimesten)
+* Updated - Jan 9 2017 - Peter Kolski (BildPeter)
 
 This addon is a wrapper around the Apple [speech recognition](https://developer.apple.com/library/mac/documentation/Carbon/Reference/Speech_Recognition_Manager/Reference/reference.html) and [speech synthesis](https://developer.apple.com/library/mac/documentation/Carbon/Reference/Speech_Synthesis_Manager/Reference/reference.html) APIs. Ergo, it is Mac only.
 
@@ -15,7 +16,7 @@ Check out [this video](https://www.youtube.com/watch?v=aQZA8Im3UqA) to see the "
 2. Add #include "ofxSpeech.h" in your testApp.h
 
 
-## ofxSpeechRecognizer usage:
+## ofxSpeechRecognizer (NOT WORKING FOR NOW):
 
 1. **testApp.h** Add a function to your testApp that takes a string by reference, this function will get called when a word is recognized. Also declare a ofxSpeechRecognizer object.
 	
