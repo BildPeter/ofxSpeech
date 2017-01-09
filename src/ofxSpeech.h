@@ -11,7 +11,7 @@
 #define _OFX_SPEECH_
 
 //-- Add speech recognition
-#include "ofxSpeechRecognizer.h"
+//#include "ofxSpeechRecognizer.h"
 
 //-- Add speech synthesis
 #include "ofxSpeechSynthesizer.h"
